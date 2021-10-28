@@ -17,3 +17,7 @@ It consists in a basic app made with React + Redux that works like a basic versi
 * **Add submit part**
 
     At the moment the app only show the selected players, but you can't do anything more with them, so the idea is to implement an action that "saves" your team like a lock system for the weekly match were all the validation must be done.
+
+* **Add Drag and Drop**
+
+  Adding this feature would let the player drag the searched players to your team avoiding the button, making it a more interactive interaction for the user over the basic add/remove buttons
