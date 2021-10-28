@@ -1,0 +1,29 @@
+div.scroll-menu {
+    background-color: #F0D9FF;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+div.scroll-item {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #BFA2DB;
+    transition: all .5s ease;
+}
+
+div.scroll-item:hover {
+    background-color: #BFA2DB;
+}
+
+div.scroll-item + .active {
+    background-color: #BFA2DB;
+    color: whitesmoke;
+}
+
+span.block{
+    display: block;
+}
